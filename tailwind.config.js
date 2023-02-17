@@ -8,7 +8,9 @@ module.exports = {
         'bluer' : '#3F7DFF',
         'palo' : '#ece8e1',
       },
-      
+      screens:{
+        'hp' : '280px',
+      },
       fontFamily:{
         'Tungsten': ['Tungsten-bold']
       }
