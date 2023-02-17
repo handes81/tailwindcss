@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face{
+    font-family:Tungsten-bold;
+    src:url(./Tungsten-bold.ttf);
+} */
+@layer base {
+  @font-face {
+    font-family: Tungsten-bold;
+    src: url(Tungsten-Bold.ttf);
+  }
+}
+
+
