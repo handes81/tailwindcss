@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.2.6 | MIT License | https://tailwindcss.com
+! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -523,6 +523,10 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -531,12 +535,8 @@ video {
   top: 3.5rem;
 }
 
-.top-2 {
-  top: 0.5rem;
-}
-
-.top-20 {
-  top: 5rem;
+.-z-10 {
+  z-index: -10;
 }
 
 .z-10 {
@@ -576,10 +576,6 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
 }
 
 .flex {
@@ -622,13 +618,12 @@ video {
   justify-content: space-between;
 }
 
-.rounded-md {
-  border-radius: 0.375rem;
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
-.bg-birupalo {
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 25 35 / var(--tw-bg-opacity));
+.rounded-md {
+  border-radius: 0.375rem;
 }
 
 .bg-blue-600 {
@@ -646,55 +641,24 @@ video {
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
-.bg-gray-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
-}
-
 .p-1 {
   padding: 0.25rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-16 {
-  padding: 4rem;
-}
-
-.p-96 {
-  padding: 24rem;
-}
-
-.p-12 {
-  padding: 3rem;
 }
 
 .p-10 {
   padding: 2.5rem;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .text-center {
   text-align: center;
 }
 
-.align-middle {
-  vertical-align: middle;
-}
-
 .font-Tungsten {
   font-family: Tungsten-bold;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .text-3xl {
@@ -702,28 +666,18 @@ video {
   line-height: 2.25rem;
 }
 
-.text-9xl {
-  font-size: 8rem;
+.text-5xl {
+  font-size: 3rem;
   line-height: 1;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.font-bold {
-  font-weight: 700;
+.text-150px {
+  font-size: 150px;
 }
 
 .text-birupalo {
   --tw-text-opacity: 1;
   color: rgb(15 25 35 / var(--tw-text-opacity));
-}
-
-.text-bluer {
-  --tw-text-opacity: 1;
-  color: rgb(63 125 255 / var(--tw-text-opacity));
 }
 
 .text-cyan-500 {
@@ -734,6 +688,11 @@ video {
 .text-merahpalo {
   --tw-text-opacity: 1;
   color: rgb(255 70 85 / var(--tw-text-opacity));
+}
+
+.text-palo {
+  --tw-text-opacity: 1;
+  color: rgb(236 232 225 / var(--tw-text-opacity));
 }
 
 /* @font-face{

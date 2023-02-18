@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     
     extend: {
+
       colors:{
+        
         'bluer' : '#3F7DFF',
         'palo' : '#ece8e1',
         'birupalo' : '#0f1923',
@@ -15,6 +17,9 @@ module.exports = {
       },
       fontFamily:{
         'Tungsten': ['Tungsten-bold'],
+      },
+      fontSize:{
+        '150px':'150px', 
       },
     },
   },
